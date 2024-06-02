@@ -221,8 +221,8 @@ var image2=document.getElementById("image2");
    }
    function showScore(){
 resetState();
-question.innerHTML=`You scored ${score} out of ${questions.length}!";
-nextButton.innerHTML="Play Again`;
+question.innerHTML=`You scored ${score} out of ${questions.length}!`;
+nextButton.innerHTML="Play Again";
 nextButton.style.display="block"; 
    };
    function handleNextButton(){
